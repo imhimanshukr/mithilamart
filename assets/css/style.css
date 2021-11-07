@@ -592,6 +592,9 @@ section{
   color: var(--light-color);
   padding: 1rem 0;
 }
+.footer .box-container .box .links:nth-last-child(2){
+  text-transform: none;
+}
 .footer .box-container .box .links i{
   color: var(--orange);
   padding-right: .5rem;
