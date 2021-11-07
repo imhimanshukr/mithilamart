@@ -133,7 +133,7 @@ section{
   z-index: 1000;
 }
 .header .logo {
-  font-size: 2.5rem;
+  font-size: 3rem;
   font-weight: bolder;
   color: var(--black);
 }
@@ -647,22 +647,6 @@ section{
   color: var(--orange);
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Responsive CSS */
 @media screen and (max-width:1024px){
   html{
@@ -739,9 +723,6 @@ section{
   }
   .header{
     font-size: 3rem;
-  }
-  .header .logo{
-    font-size: 2.7rem;
   }
   /* .footer{
     text-align: center;
