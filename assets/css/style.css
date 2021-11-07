@@ -172,6 +172,7 @@ section{
   background-color: var(--orange);
   color: #fff;
 }
+
 #menu-btn {
   display: none;
 }
@@ -192,6 +193,7 @@ section{
   right: 2rem;
   transition: .4s linear;
 }
+
 .header .search-form input {
   height: 100%;
   width: 100%;
@@ -598,10 +600,11 @@ section{
   padding-right: 2rem;
 }
 .footer .box-container .box p{
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   line-height: 1.8;
   color: var(--light-color);
   padding: 1rem 0;
+  font-weight: 600;
 }
 .footer .box-container .box .share a{
   height: 4rem;
@@ -626,7 +629,6 @@ section{
   background: #eee;
   font-size: 1.6rem;
   color: var(--black);
-  text-transform: none;
   border: none;
 }
 .footer .box-container .box .payment-img{
@@ -703,6 +705,11 @@ section{
   }
 }
 @media screen and (max-width:492px){
+  .header .icons div:hover{
+    background-color: #eee;
+    color: var(--black);
+  }
+  
   .footer .box-container .box .payment-img {
     margin-top: 1rem;
     height: 3rem;
@@ -716,6 +723,9 @@ section{
   .header{
     font-size: 2.7rem;
   }
+  .footer .credit {
+    font-size: 1.8rem;
+  }
 }
 @media screen and (max-width:350px){
   html {
@@ -724,10 +734,6 @@ section{
   .header{
     font-size: 3rem;
   }
-  /* .footer{
-    text-align: center;
-  } */
-  
 }
 @media screen and (max-width:320px){
   html {
